@@ -1,26 +1,23 @@
-#! python3 
+#! python3
 
 def dig_pow(n, p):
-	"""Finds a positive integer k, if it exists, such as the 
-	sum of the digits of n taken to the successive powers 
-	of p is equal to k * n.
-	
-	Args: 
-		Integer and a exponent 
+        """Finds a positive integer k, if it exists, such as the
+        sum of the digits of n taken to the successive powers
+        of p is equal to k * n.
 
-	Returns: 
-		A positive integer if found 
+        Args:
+                Integer and a exponent
 
-	Example: 
-		>>>dig_pow(46288, 1)
-		51
-	"""
+        Returns:
+                A positive integer if found
 
-	digits = [int(num) for num in str(n)]
-	
-	total = 0	
-	for i in range(len(digits)):
-		total += pow(digits[i], p)
-		p += 1
+        Example:
+                >>>dig_pow(46288, 1)
+                51
+        """
+
+	total = 0
+	for k, v in enumerate(str(n)):
+		total += pow(int(v), k + 1)	
 	quotient = total / n
-	return int(quotient) if quotient.is_integer() else -1
+	return quotient if quotient.is_integer() else -1	
