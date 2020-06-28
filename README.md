@@ -1,8 +1,8 @@
-# Codewars: https://www.codewars.com
+# Codewars
 
 ## Purpose 
-This repository lists all of my completed submissions on codewars. All 
-submissions will be written in the language that I am focusing on, which 
+This repository lists all of my completed submissions on [codewars](https://www.codewars.com).
+All submissions will be written in the language that I am focusing on, which 
 is python. 
 
 ## Influences
