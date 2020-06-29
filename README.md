@@ -1,4 +1,4 @@
-# Codewars
+# Python 
 
 ## Purpose 
 This repository lists all of my completed submissions on [codewars](https://www.codewars.com).
