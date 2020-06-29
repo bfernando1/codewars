@@ -3,7 +3,7 @@
 ## Purpose 
 This repository lists all of my completed submissions on [codewars](https://www.codewars.com).
 All submissions will be written in the language that I am focusing on, which 
-is python. 
+is Python. 
 
 ## Influences
 Two resources that influence how I program are 
