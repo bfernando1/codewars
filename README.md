@@ -13,3 +13,6 @@ Two resources that influence how I program are
 ## Feedback
 I began my programming journey in April 2020, starting with [C](https://cs50.harvard.edu/summer/2020/). 
 I have shifted my attention to python starting in June 2020. Any constructive feedback is welcomed.  
+
+Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
+
