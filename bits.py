@@ -13,4 +13,4 @@ def countBits(n):
         >>> countBits(7)
             3
     """
-    return sum('1' in bits for bits in format(n, 'b'))
+    return bin(n).count('1') 
